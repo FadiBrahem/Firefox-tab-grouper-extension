@@ -1,0 +1,33 @@
+body {
+  width: 300px;   /* Fixed width */
+  height: auto;   /* Auto height based on content */
+  font-family: Arial, sans-serif;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.tab-group {
+  margin-bottom: 20px;
+}
+
+.tab-group h3 {
+  margin: 0;
+  padding: 5px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-group ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-group li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.tab-group li:hover {
+  background-color: #e0e0e0;
+}
